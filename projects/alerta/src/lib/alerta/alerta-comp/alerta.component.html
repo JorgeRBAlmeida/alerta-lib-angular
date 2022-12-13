@@ -1,0 +1,29 @@
+<div class="content">
+  <bb-alerta-search
+          [isLoading$]="loading$.asObservable()"
+          [buscaNav$]="buscaNav$.asObservable()"
+          [grupos]="grupos"
+          [origens]="origens"
+          [selectedGrupo]="selectedGrupo"
+          [selectedOrigem]="selectedOrigem"
+          [grupoFixo]="grupoFixo"
+          [origemFixa]="origemFixa"
+          (buscarGrupo)="getAlertas('grupo', $event)"
+          (buscarOrigem)="getAlertas('origem', $event)"
+          (reset)="resetBusca()"
+        ></bb-alerta-search>
+
+        <bb-alerta-list
+          [grupos]="grupos"
+          [origens]="origens"
+          [selectedGrupo]="selectedGrupo"
+          [selectedOrigem]="selectedOrigem"
+          [origemFixa]="origemFixa"
+          [grupoTitle]="grupoTitle"
+          [excluindo]="excluindo"
+          [data$]="data$.asObservable()"
+          (remover)="excluirAlerta($event)"
+          (atualizar)="mudaSituacao($event)"
+          (toggleBusca)="buscaNav$.next($event)"
+        ></bb-alerta-list>
+</div>

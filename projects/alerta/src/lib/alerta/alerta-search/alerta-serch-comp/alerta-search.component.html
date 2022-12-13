@@ -1,0 +1,61 @@
+<section class="busca" [@toggleAnimation]="!semBusca" >
+  <mat-toolbar color="primary" class="busca__toolbar" >
+    <span class="busca__bg-icon" *ngIf="semBusca">
+      <mat-icon aria-hidden="true">search
+      </mat-icon></span>
+
+      <mat-form-field appearance="fill" class="hide">
+        <mat-label></mat-label>
+        <mat-select>
+          <mat-option>
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+    <mat-form-field appearance="fill">
+
+      <mat-label *ngIf="!isLoadingGrupos">Grupo</mat-label>
+
+      <mat-label *ngIf="isLoadingGrupos">
+        <div class="select-placeholder-container">
+          <span>Loading...</span>
+          <mat-spinner class="spinner" diameter="20" color="accent"></mat-spinner>
+        </div>
+      </mat-label>
+
+
+      <mat-select [(ngModel)]="selectedGrupo" (selectionChange)="buscarGrupo.emit(selectedGrupo)" [disabled]="grupoFixo != ''">
+        <mat-option *ngFor="let grupo of grupos" [value]="grupo.nome">
+          {{ grupo.nome | acentuacao }}
+        </mat-option>
+      </mat-select>
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+
+      <mat-label *ngIf="!isLoadingOrigens">Origem</mat-label>
+
+      <mat-label *ngIf="isLoadingOrigens">
+        <div class="select-placeholder-container">
+          <span>Loading...</span>
+          <mat-spinner class="spinner" diameter="20" color="accent"></mat-spinner>
+        </div>
+      </mat-label>
+
+
+      <mat-select [(ngModel)]="selectedOrigem" (selectionChange)="buscarOrigem.emit(selectedOrigem)" [disabled]="origemFixa != ''">
+        <mat-option *ngFor="let origem of origens" [value]="origem.nome">
+          {{ origem.nome | acentuacao }}
+        </mat-option>
+      </mat-select>
+
+    </mat-form-field>
+
+    <button class="btn--reset" mat-icon-button (click)="reset.emit($event)" >
+
+        <mat-icon matTooltip="LIMPAR CAMPOS" matTooltipPosition="above">backspace</mat-icon>
+
+    </button>
+  </mat-toolbar>
+</section>

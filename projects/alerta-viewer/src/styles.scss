@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+$material-design-icons-font-directory-path: "~material-design-icons-iconfont/dist/fonts/";
+
+@import "~material-design-icons-iconfont/src/material-design-icons";
+@import "@angular/material/theming";
+$MaterialIcons_FontPath: "~material-icons-font/fonts";
+@include mat-core();
+
+* {
+  box-sizing: border-box;
+}
+
+$bbdtvm-bluepalette: (
+  50: #e9ecff,
+  100: #c8cfff,
+  200: #a3afff,
+  300: #7e8eff,
+  400: #6276ff,
+  500: #465eff,
+  600: #3f56ff,
+  700: #374cff,
+  800: #2f42ff,
+  900: #2031ff,
+  A100: #ffffff,
+  A200: #ffffff,
+  A400: #cfd2ff,
+  A700: #b6bbff,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
+
+$bbdtvm-yellowpalette: (
+  50: #ffffe6,
+  100: #fefec1,
+  200: #fefe98,
+  300: #fdfd6e,
+  400: #fcfc4f,
+  500: #fcfc30,
+  600: #fcfc2b,
+  700: #fbfb24,
+  800: #fbfb1e,
+  900: #fafa13,
+  A100: #ffffff,
+  A200: #fffff5,
+  A400: #ffffc2,
+  A700: #ffffa8,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #000000,
+    900: #000000,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
+
+$custom-app-primary: mat-palette($bbdtvm-bluepalette);
+$custom-app-accent: mat-palette($bbdtvm-yellowpalette);
+$custom-app-warn: mat-palette($mat-red, A700);
+
+$custom-theme: mat-light-theme(
+  $custom-app-primary,
+  $custom-app-accent,
+  $custom-app-warn
+);
+
+@include angular-material-theme($custom-theme);
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

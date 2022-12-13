@@ -1,0 +1,139 @@
+<div class="container">
+  <mat-card class="mat-elevation-z2 alerta-list">
+
+    <mat-toolbar class="filtros">
+      <button type="button" class="btn--show-hide mat-elevation-z0"
+      mat-fab data-toggle="warn" color="primary" (click)="mudarBusca()">
+        <mat-icon >expand_{{ btnToggle }}</mat-icon>
+      </button>
+
+        <h3 class="header-table" *ngIf="origemFixa === ''; else headerOrigem"> ALERTAS
+            <span
+              *ngFor="let grupo of grupos">
+                {{ (grupo.nome === selectedGrupo && grupoTitle === true ?
+                  selectedGrupo : '') | acentuacao }}
+            </span>
+        </h3>
+        <ng-template #headerOrigem>
+          <h3 class="header-table"> ALERTAS
+            <span
+              *ngFor="let grupo of grupos">
+                {{ (grupo.nome === selectedGrupo && grupoTitle === true ?
+                  selectedGrupo : '') | acentuacao }}
+            </span>
+            <span
+              *ngFor="let origem of origens">
+                {{ (origem.nome === selectedOrigem ?
+                  ' DE ' + selectedOrigem : '') | acentuacao }}
+            </span>
+          </h3>
+        </ng-template>
+
+        <mat-form-field class="form-filtro" appearance="outline">
+          <mat-label>Filtrar por tipo...</mat-label>
+          <input matInput [(ngModel)]="filterEntity.tipo">
+          <mat-icon matSuffix>filter_list</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="form-filtro" appearance="outline" color="primary">
+          <mat-label>Filtrar por mensagem...</mat-label>
+          <input matInput [(ngModel)]="filterEntity.mensagem">
+          <mat-icon matSuffix>filter_list</mat-icon>
+        </mat-form-field>
+
+          <button
+          mat-stroked-button
+          matTooltip="BAIXAR ALERTAS"
+          matTooltipPosition="above"
+          mat-icon-button
+          class="btn--export"
+          (click)="exporter.exportTable('xlsx', {fileName:'alertas', columnWidths: exportColumns})">
+            <mat-icon color="primary">file_download</mat-icon>
+          </button>
+
+        </mat-toolbar>
+
+      <table
+      mat-table
+      matTableFilter
+      matTableExporter
+      matSort
+      [exampleEntity]="filterEntity"
+      [filterType]="filterType"
+      [dataSource]="listData"
+      class="mat-elevation-z0"
+      aria-label="tabela de alertas"
+      #exporter="matTableExporter"
+      [hiddenColumns]="[5]">
+        <ng-container matColumnDef="dataRegistro">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header scope="col"> Data Alerta </th>
+          <td mat-cell *matCellDef="let alerta" class="column-data"> {{ alerta.dataRegistro | date : 'dd-MM-yyyy' }} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="origem">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header scope="col"> Origem </th>
+          <td mat-cell *matCellDef="let alerta" class="column-origem"> {{ alerta.origem }} </td>
+
+        </ng-container>
+
+        <ng-container matColumnDef="tipo">
+          <th mat-header-cell *matHeaderCellDef scope="col"> Tipo </th>
+          <td mat-cell *matCellDef="let alerta"> {{ alerta.tipo }}</td>
+          <td mat-footer-cell *matFooterCellDef class="no-data"> Nenhum alerta para exibir. </td>
+        </ng-container>
+
+        <ng-container matColumnDef="mensagem">
+          <th mat-header-cell *matHeaderCellDef scope="col"> Mensagem </th>
+          <td mat-cell *matCellDef="let alerta"> {{ alerta.mensagem }} </td>
+
+        </ng-container>
+
+        <ng-container matColumnDef="situacao">
+          <th mat-header-cell mat-sort-header *matHeaderCellDef scope="col">
+            <span class="situacao-header">Situação</span>
+          </th>
+          <td mat-cell *matCellDef="let alerta">
+            <button
+              class="btn btn__situacao"
+              [ngClass]="{ 'btn__situacao--em-analise' : alerta.situacao === 'EM_ANALISE' }"
+              (click)="atualizar.emit(alerta)" >
+
+              <span class="btn__visible">
+                <mat-icon *ngIf="(alerta.situacaoLoading === 'LOADING') || (alerta.situacaoLoading === 'LOADING2')" class="spinner--situacao">
+                  <mat-spinner color="primary" diameter="15">
+                  </mat-spinner>
+                </mat-icon>{{ alerta.situacao === 'EM_ANALISE'? 'Em análise' : 'Aberto' }}
+              </span>
+            </button>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="acao">
+          <th mat-header-cell *matHeaderCellDef scope="col"></th>
+          <td mat-cell *matCellDef="let alerta">
+            <button mat-icon-button holdable class="icon-delete" (holdTime)="excluirAlerta($event, alerta)">
+              <mat-icon matTooltip="SEGURE O BOTÃO PARA EXCLUIR" matTooltipPosition="above">
+                delete
+              </mat-icon>
+            </button>
+          </td>
+        </ng-container>
+        <ng-container  matColumnDef="noData">
+          <td mat-footer-cell *matFooterCellDef colspan="6"> Nenhum alerta para exibir.</td>
+        </ng-container>
+        <ng-container  matColumnDef="loading">
+          <td mat-footer-cell *matFooterCellDef colspan="6"><mat-progress-bar mode="indeterminate" ></mat-progress-bar></td>
+        </ng-container>
+
+        <tr mat-row
+        *matRowDef="let row;
+        columns: displayedColumns;"
+        [ngClass]="{'em-analise' : row.situacao === 'EM_ANALISE',
+        'barra-excluir' : excluindoRow.has(row) }"
+        [@fadeOutAnimation]="excluindo">
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-footer-row *matFooterRowDef="['loading']" [ngClass]="{ 'hide' : listData?.data != null }"></tr>
+        <tr mat-footer-row *matFooterRowDef="['noData']" [ngClass]="{ 'hide' : listData?.filteredData?.length != 0 }"></tr>
+      </table>
+    </mat-card>
+  </div>

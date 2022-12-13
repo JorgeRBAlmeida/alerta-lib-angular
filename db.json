@@ -1,0 +1,1039 @@
+{
+  "alertas": [
+    {
+      "id": 15927249818783,
+      "tipo": "classificação",
+      "status": null,
+      "mensagem": "fundo bla inativo com com posicao",
+      "origem": "CALCULO"
+    },
+    {
+      "id": 21782057251013,
+      "tipo": "posição",
+      "origem": "CALCULO",
+      "mensagem": "fundo topacoesfodao inativo com com posicao",
+      "status": 1,
+      "data": "2021-09-17"
+    },
+    {
+      "id": 33063980429980,
+      "tipo": "cotização",
+      "status": 1,
+      "mensagem": "Fundo 62034 com PL zerado",
+      "origem": "CALCULO"
+    },
+    {
+      "id": 7780732612865514000,
+      "tipo": "instrumentização",
+      "status": null,
+      "mensagem": "Istrumento 123456 nao localizado",
+      "origem": "MAPEAMENTO"
+    },
+    {
+      "id": 8043922460905332000,
+      "tipo": "classificação",
+      "status": 1,
+      "mensagem": "fundos sem cotizacao - ID: 29608 - NOME: PICTET-TIMBER-I USD - DRIVE: null - GFI: null - ISIN: LU0340557262 - CNPJ: null",
+      "origem": "FUNDOS"
+    },
+    {
+      "id": 5110348198180706000,
+      "tipo": "classificação",
+      "status": 1,
+      "mensagem": "fundos sem cotizacao - ID: 656834 - NOME: null - DRIVE: null - GFI: null - ISIN: BR080ICTF002 - CNPJ: null",
+      "origem": "FUNDOS"
+    },
+    {
+      "id": 2213379185657534200,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 656837 - NOME: null - DRIVE: null - GFI: null - ISIN: BR084ICTF004 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4459000905115458000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 656839 - NOME: null - DRIVE: null - GFI: null - ISIN: BR084TCTF001 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5671533691132989000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 656842 - NOME: null - DRIVE: null - GFI: null - ISIN: BR08EUCTF003 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3118984469270913000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 656843 - NOME: null - DRIVE: null - GFI: null - ISIN: BR090UCTF006 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 636238117035924000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656846 - NOME: null - DRIVE: null - GFI: null - ISIN: BR09A0CTF007 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4417664987445023000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656852 - NOME: null - DRIVE: null - GFI: null - ISIN: BRDID1CTF006 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3050291324194543600,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 656855 - NOME: null - DRIVE: null - GFI: null - ISIN: BRGSS1CTF004 - CNPJ: null",
+      "status": 1,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6510499370201013000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656864 - NOME: null - DRIVE: null - GFI: null - ISIN: BRNMF1CTF006 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5886856816386593000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656876 - NOME: null - DRIVE: null - GFI: null - ISIN: IE00B4T3NP37 - CNPJ: null",
+      "status": 1,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1955627556522712300,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656878 - NOME: null - DRIVE: null - GFI: null - ISIN: IE00BN6JWR22 - CNPJ: null",
+      "status": 1,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7024394160965244000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656883 - NOME: null - DRIVE: null - GFI: null - ISIN: KYG8789C1069 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7716833817364944000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656892 - NOME: null - DRIVE: null - GFI: null - ISIN: LU0966590910 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3073859850147483600,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656894 - NOME: null - DRIVE: null - GFI: null - ISIN: LU1054168221 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4582999406434800600,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656895 - NOME: null - DRIVE: null - GFI: null - ISIN: LU1675058645 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1710200200871304700,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 656897 - NOME: null - DRIVE: null - GFI: null - ISIN: LU2063272608 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1780582198433961200,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 657181 - NOME: null - DRIVE: null - GFI: 1936 - ISIN: null - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6347647919404307000,
+      "origem": "FUNDOS",
+      "tipo": "cotizacao",
+      "mensagem": "fundos sem cotizacao - ID: 657529 - NOME: null - DRIVE: null - GFI: null - ISIN: BR09KUCTF008 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6511001479105369000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 656765 - NOME: BB AÇÕES MIRAE ASSET ASIA FIA - DRIVE: 505050 - GFI: 1893 - ISIN: BR08KOCTF003 - CNPJ: 40.022.015/0001-75",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3649193738879590000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 656769 - NOME: BB IVI 27 FI MM CRED PRIV LP - DRIVE: 305052 - GFI: 1906 - ISIN: BR08WHCTF002 - CNPJ: 41.727.038/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7730598175030794000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 657165 - NOME: BB MM NORDEA ALPHA 15 IE FIC - DRIVE: 11750 - GFI: 1750 - ISIN: BR056ZCTF006 - CNPJ: 37.243.130/0001-65",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8369285607252582000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 265187 - NOME: BB FÚRIA MM FIC FI CRÉD PRIV - DRIVE: 4954 - GFI: 1257 - ISIN: null - CNPJ: 28.015.632/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6180019978785348000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 657449 - NOME: BB AÇÕES NORDEA DISRUPTION ESG - DRIVE: 505058 - GFI: 1960 - ISIN: BR09IHCTF009 - CNPJ: 40.904.778/0001-40",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4065946350307007000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 1135 - NOME: BB PRIVATE 46 FI MM CRED PRIV - DRIVE: 10864 - GFI: 864 - ISIN: null - CNPJ: 17.093.074/0001-12",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5919779884472621000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 881 - NOME: BB BNC A� NOSSA CAIXA NOSSO CL - DRIVE: 4758 - GFI: 760 - ISIN: null - CNPJ: 02.231.282/0001-63",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3313966955772860000,
+      "origem": "FUNDOS",
+      "tipo": "duplicados",
+      "mensagem": "fundos duplicados - ID: 582179 - NOME: BB MM NORDEA ALPHA 15 IE FIC - DRIVE: 100001750 - GFI: 1750 - ISIN: BR056ZCTF006 - CNPJ: 37.243.130/0001-65",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 16112733464517768,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos duplicados - ID: 635807 - NOME: BB BNC AÇ NOSSA CAIXA NOSSO CL - DRIVE: 4762 - GFI: 760 - ISIN: null - CNPJ: 02.231.282/0001-63",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1282832196416524500,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos duplicados - ID: 657455 - NOME: BB FÚRIA MM FIC FI CRÉD PRIV - DRIVE: 11257 - GFI: 1257 - ISIN: null - CNPJ: 28.015.632/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8964048421562702000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos duplicados - ID: 657456 - NOME: BB IVI 27 FI MM CRED PRIV LP - DRIVE: 5052 - GFI: 1906 - ISIN: BR08WHCTF002 - CNPJ: 41.727.038/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8867037392693646000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos duplicados - ID: 657459 - NOME: BB AÇÕES MIRAE ASSET ASIA FIA - DRIVE: 5050 - GFI: 1893 - ISIN: BR08KOCTF003 - CNPJ: 40.022.015/0001-75",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1054681119317449700,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos duplicados - ID: 657460 - NOME: BB PRIVATE 46 FI MM CRED PRIV - DRIVE: 5051 - GFI: 864 - ISIN: null - CNPJ: 17.093.074/0001-12",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6376152626223145000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos duplicados - ID: 657461 - NOME: BB AÇÕES NORDEA DISRUPTION ESG - DRIVE: 5058 - GFI: 1960 - ISIN: BR09IHCTF009 - CNPJ: 40.904.778/0001-40",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1706512409424778200,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem drive - ID: 3721 - NOME: BB PRIVATE 39 MULTIMERCADO FIC FI CREDITO PRIVADO - DRIVE: null - GFI: 4257 - ISIN: null - CNPJ: 11.240.149/0001-64",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4387965181836352500,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem drive - ID: 635790 - NOME: null - DRIVE: null - GFI: 4338 - ISIN: null - CNPJ: 28.386.255/0002-53",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8241106240191355000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem drive - ID: 635793 - NOME: null - DRIVE: null - GFI: 4232 - ISIN: null - CNPJ: 00.000.000/0042-32",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8445684175082447000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem drive - ID: 635798 - NOME: null - DRIVE: null - GFI: 667 - ISIN: null - CNPJ: 00.000.000/0006-67",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7387252579793723000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem drive - ID: 635799 - NOME: null - DRIVE: null - GFI: 606 - ISIN: null - CNPJ: 09.383.069/0001-16",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5310095248863352000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 647701 - NOME: CART BB LOMBARDI - DRIVE: 304874 - GFI: null - ISIN: null - CNPJ: 14.399.766/0001-03",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8014233146248551000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 649354 - NOME: CART BB ANTONIA - DRIVE: 304940 - GFI: null - ISIN: null - CNPJ: 26.768.675/0001-79",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 232879722040876600,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 651549 - NOME: null - DRIVE: null - GFI: null - ISIN: BR02VICTF005 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 151175196970735840,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656753 - NOME: BRASILPREV TOP ESTRATÉGIA X - DRIVE: 11876 - GFI: 1876 - ISIN: BR08CZCTF006 - CNPJ: 40.954.546/0001-04",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 526426175847751000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656758 - NOME: BRASILPREV TOP ESTRATÉGIA XI - DRIVE: 11877 - GFI: 1877 - ISIN: BR088UCTF000 - CNPJ: 40.954.854/0001-21",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 920516772169077200,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656760 - NOME: BB TOP ALLOC BAL - DRIVE: 505046 - GFI: null - ISIN: null - CNPJ: 38.226.052/0001-53",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5548129930816938000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656765 - NOME: BB AÇÕES MIRAE ASSET ASIA FIA - DRIVE: 505050 - GFI: 1893 - ISIN: BR08KOCTF003 - CNPJ: 40.022.015/0001-75",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4902390345973522000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656769 - NOME: BB IVI 27 FI MM CRED PRIV LP - DRIVE: 305052 - GFI: 1906 - ISIN: BR08WHCTF002 - CNPJ: 41.727.038/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8908047602365455000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656784 - NOME: BB TOP AÇÕES ASG BRASIL - DRIVE: 5047 - GFI: 1871 - ISIN: BR0808CTF008 - CNPJ: 40.911.324/0001-04",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1007526588008323300,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656789 - NOME: BB TOP MM LP ALLOC BALANCE - DRIVE: 5046 - GFI: 1865 - ISIN: BR07XCCTF003 - CNPJ: 38.226.052/0001-53",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8620774205176044000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656827 - NOME: null - DRIVE: null - GFI: null - ISIN: BR026JCTF003 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2761787145859193000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656831 - NOME: null - DRIVE: null - GFI: null - ISIN: BR06P1CTF001 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 863101642274459900,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656832 - NOME: null - DRIVE: null - GFI: null - ISIN: BR06Q2CTF008 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7893035267501741000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656834 - NOME: null - DRIVE: null - GFI: null - ISIN: BR080ICTF002 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5138099411959897000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656837 - NOME: null - DRIVE: null - GFI: null - ISIN: BR084ICTF004 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1819301085853736400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656839 - NOME: null - DRIVE: null - GFI: null - ISIN: BR084TCTF001 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7561377052790444000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656842 - NOME: null - DRIVE: null - GFI: null - ISIN: BR08EUCTF003 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1619398975142584300,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656843 - NOME: null - DRIVE: null - GFI: null - ISIN: BR090UCTF006 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 793076517073804300,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656846 - NOME: null - DRIVE: null - GFI: null - ISIN: BR09A0CTF007 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4570128483784086000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656852 - NOME: null - DRIVE: null - GFI: null - ISIN: BRDID1CTF006 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1546443039225437700,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656855 - NOME: null - DRIVE: null - GFI: null - ISIN: BRGSS1CTF004 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8145831761139684000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656864 - NOME: null - DRIVE: null - GFI: null - ISIN: BRNMF1CTF006 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7777220071788730000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656876 - NOME: null - DRIVE: null - GFI: null - ISIN: IE00B4T3NP37 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5608588017818883000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656878 - NOME: null - DRIVE: null - GFI: null - ISIN: IE00BN6JWR22 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8983872067003240000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656883 - NOME: null - DRIVE: null - GFI: null - ISIN: KYG8789C1069 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2170936075562670600,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657424 - NOME: BB COIMBRA MM FIC FI CRED PRIV - DRIVE: 11866 - GFI: 1866 - ISIN: null - CNPJ: 26.614.279/0001-97",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 359340011117695900,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657425 - NOME: BB ESP AÇÕES VERDE LONG B PVT - DRIVE: 11878 - GFI: 1878 - ISIN: BR0881CTF005 - CNPJ: 40.950.417/0001-30",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6415780605454275000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657426 - NOME: BB IFQ MM FIC FI CRED PRIV - DRIVE: 11892 - GFI: 1892 - ISIN: BR08GZCTF007 - CNPJ: 41.709.670/0001-69",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8068498978296976000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657427 - NOME: BB OENNING MM FIC FI CRED PRIV - DRIVE: 11883 - GFI: 1883 - ISIN: BR089PCTF008 - CNPJ: 40.952.974/0001-90",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5114776643900104000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657428 - NOME: BB FIBS MM FIC FI CRED PRIV - DRIVE: 11894 - GFI: 1894 - ISIN: BR00ZFCTF006 - CNPJ: 30.057.827/0001-00",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 240753660025131460,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657429 - NOME: BB WMPF MM FIC FI CRED PRIV - DRIVE: 11867 - GFI: 1867 - ISIN: BR07XXCTF009 - CNPJ: 40.903.414/0001-45",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3890875302131750400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657430 - NOME: BB MCT MM FIC FI CRED PRIVAD - DRIVE: 11884 - GFI: 1884 - ISIN: BR089OCTF001 - CNPJ: 40.951.528/0001-60",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4902455880523208000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657431 - NOME: BB FLORES MM FIC FI CRED PRIV - DRIVE: 11868 - GFI: 1868 - ISIN: BR07YBCTF003 - CNPJ: 40.903.578/0001-72",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 116256150401342050,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657432 - NOME: BB DHD MM FIC FI CRED PRIV - DRIVE: 11895 - GFI: 1895 - ISIN: BR08N8CTF006 - CNPJ: 41.709.250/0001-82",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5872678648750627000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657433 - NOME: BB RMP MM FIC FI CRED PRIV - DRIVE: 11885 - GFI: 1885 - ISIN: BR08D3CTF009 - CNPJ: 41.707.765/0001-43",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8498605747879760000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657434 - NOME: BB VILLA VICTÓRIA I MM FIC FI - DRIVE: 11896 - GFI: 1896 - ISIN: BR08N7CTF008 - CNPJ: 41.733.526/0001-68",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3171705773882364400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657435 - NOME: BB AÇÕES ASG BRASIL - DRIVE: 11872 - GFI: 1872 - ISIN: BR0807CTF000 - CNPJ: 40.946.818/0001-16",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5741075525965798000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657436 - NOME: BB TRÊS IRMÃOS MM FIC FI - DRIVE: 11886 - GFI: 1886 - ISIN: BR091BCTF004 - CNPJ: 41.707.854/0001-90",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8192385911837777000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657437 - NOME: BB OTRANTO MM FIC FI CRED PRIV - DRIVE: 11873 - GFI: 1873 - ISIN: BR080ZCTF006 - CNPJ: 40.953.530/0001-79",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6907268484012924000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657438 - NOME: BB PHOENIX9009 MM FIC FI - DRIVE: 11897 - GFI: 1897 - ISIN: BR08NACTF006 - CNPJ: 41.733.594/0001-27",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8430567645580450000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657439 - NOME: BB AÇÕES BRL MIRAE ASIA IE PVT - DRIVE: 11888 - GFI: 1888 - ISIN: BR08GYCTF000 - CNPJ: 41.707.832/0001-20",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4891289092013315000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657440 - NOME: BB SEMENTES MM FIC FI CRED PRI - DRIVE: 11898 - GFI: 1898 - ISIN: BR08N9CTF004 - CNPJ: 41.733.560/0001-32",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4341816878443225000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657441 - NOME: BB AÇÕES FX NORDEA GLOBAL PVT - DRIVE: 11874 - GFI: 1874 - ISIN: BR082ICTF008 - CNPJ: 40.903.923/0001-78",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2405029795062045000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657442 - NOME: BB MARINEX FIC FI RF LP - DRIVE: 11889 - GFI: 1889 - ISIN: BR08H0CTF001 - CNPJ: 41.709.204/0001-83",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4246231789775377000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657443 - NOME: BB 1S3K MM FIC FI CRED PRIV - DRIVE: 11904 - GFI: 1904 - ISIN: null - CNPJ: 41.733.645/0001-10",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8416225309429947000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657444 - NOME: BB SUNSET FIC FI RENDA FIXA CP - DRIVE: 11907 - GFI: 1907 - ISIN: null - CNPJ: 41.733.669/0001-70",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4004484661723158500,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657445 - NOME: BB PINHO MM FIC FI CRED PRIV - DRIVE: 11890 - GFI: 1890 - ISIN: BR08H2CTF007 - CNPJ: 41.714.876/0001-87",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2649377958943348000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657446 - NOME: BB LUZERN MM FIC FI CRED PRIV - DRIVE: 11891 - GFI: 1891 - ISIN: BR08H1CTF009 - CNPJ: 41.737.179/0001-41",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1726218237261863400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657447 - NOME: BB SOLEDADE KG MM FIC FI - DRIVE: 11930 - GFI: 1930 - ISIN: null - CNPJ: 41.755.340/0001-00",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 684636048837335400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657448 - NOME: ASSET AÇ NORDEA ESG - DRIVE: 11961 - GFI: 1961 - ISIN: BR09KVCTF006 - CNPJ: 41.755.418/0001-96",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1100315571673257900,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657449 - NOME: BB AÇÕES NORDEA DISRUPTION ESG - DRIVE: 505058 - GFI: 1960 - ISIN: BR09IHCTF009 - CNPJ: 40.904.778/0001-40",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8061724905442401000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657450 - NOME: BB FRT 400 FI MULTIMERCADO LP - DRIVE: 5053 - GFI: 1912 - ISIN: BR08Z0CTF009 - CNPJ: 41.727.112/0001-26",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2325358291419618000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657451 - NOME: BB AÇÕES VALE I - DRIVE: 5054 - GFI: 1911 - ISIN: BR08YZCTF000 - CNPJ: 41.727.080/0001-69",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8513376942879233000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657452 - NOME: BB RESERVA FI MM CRED PRIV LP - DRIVE: 5055 - GFI: 1887 - ISIN: BR091CCTF002 - CNPJ: 41.713.501/0001-00",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 9016420090102109000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657453 - NOME: BB PRE IRF-M PVT - DRIVE: 100000511 - GFI: null - ISIN: null - CNPJ: 04.128.704/0001-03",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 713254815702932000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657454 - NOME: FIDC COMPESA SNR - DRIVE: 30210 - GFI: null - ISIN: null - CNPJ: 19.372.553/0001-01",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6789208591766938000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657455 - NOME: BB FÚRIA MM FIC FI CRÉD PRIV - DRIVE: 11257 - GFI: 1257 - ISIN: null - CNPJ: 28.015.632/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7169345690745527000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657456 - NOME: BB IVI 27 FI MM CRED PRIV LP - DRIVE: 5052 - GFI: 1906 - ISIN: BR08WHCTF002 - CNPJ: 41.727.038/0001-48",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7153203837499365000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657459 - NOME: BB AÇÕES MIRAE ASSET ASIA FIA - DRIVE: 5050 - GFI: 1893 - ISIN: BR08KOCTF003 - CNPJ: 40.022.015/0001-75",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1735356091037081000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657460 - NOME: BB PRIVATE 46 FI MM CRED PRIV - DRIVE: 5051 - GFI: 864 - ISIN: null - CNPJ: 17.093.074/0001-12",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6866828672899044000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657529 - NOME: null - DRIVE: null - GFI: null - ISIN: BR09KUCTF008 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7430630712051454000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657461 - NOME: BB AÇÕES NORDEA DISRUPTION ESG - DRIVE: 5058 - GFI: 1960 - ISIN: BR09IHCTF009 - CNPJ: 40.904.778/0001-40",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1454678451820583000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657165 - NOME: BB MM NORDEA ALPHA 15 IE FIC - DRIVE: 11750 - GFI: 1750 - ISIN: BR056ZCTF006 - CNPJ: 37.243.130/0001-65",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2556444610190987300,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656903 - NOME: RPS TR BB D60 FIC FIM - DRIVE: null - GFI: 8304 - ISIN: null - CNPJ: 42.500.804/0001-08",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1023996109052795000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657413 - NOME: BRASILPREV RT MRF-BB II FI - DRIVE: 6239 - GFI: 1881 - ISIN: BR091DCTF000 - CNPJ: 40.979.341/0001-75",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1209314522249777400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656897 - NOME: null - DRIVE: null - GFI: null - ISIN: LU2063272608 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4662769520880344000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656894 - NOME: null - DRIVE: null - GFI: null - ISIN: LU1054168221 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3931873210355048400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657417 - NOME: BRASILPREV RT ANLUCA FIC FI MM - DRIVE: 100001863 - GFI: 1863 - ISIN: BR08WFCTF006 - CNPJ: 41.140.365/0001-07",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5671100941496635000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 647701 - NOME: CART BB LOMBARDI - DRIVE: 304874 - GFI: null - ISIN: null - CNPJ: 14.399.766/0001-03",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5758136081751040000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656892 - NOME: null - DRIVE: null - GFI: null - ISIN: LU0966590910 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4720820403014163000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656899 - NOME: CONSTELLATION BB IQ FIC FIA - DRIVE: null - GFI: 8282 - ISIN: null - CNPJ: 41.272.474/0001-70",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7286928340481957000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657420 - NOME: FIA RVA EMB V - DRIVE: 200119 - GFI: null - ISIN: null - CNPJ: 41.300.472/0001-47",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 963693933907826400,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657418 - NOME: BB HERCULES II FIC FI RF LP - DRIVE: 100001875 - GFI: 1875 - ISIN: BR082HCTF000 - CNPJ: 41.080.911/0001-53",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 7591999330134283000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657414 - NOME: BRASILPREV RT RC FIC FI MM - DRIVE: 100001854 - GFI: 1854 - ISIN: BR091ACTF006 - CNPJ: 41.195.419/0001-23",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4874422098259041000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657181 - NOME: null - DRIVE: null - GFI: 1936 - ISIN: null - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 1944590942645343200,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656901 - NOME: SAFRA GALILEO DISTRIBUIDORE II - DRIVE: null - GFI: 8298 - ISIN: null - CNPJ: 41.820.558/0001-09",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 6299000446036368000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657416 - NOME: BRASILPREV RT MTGOAD FIC FI MM - DRIVE: 100001862 - GFI: 1862 - ISIN: BR08MBCTF006 - CNPJ: 41.195.394/0001-68",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 5541476119607726000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657419 - NOME: BB RF CP MILÊNIO FIC FI - DRIVE: 100001926 - GFI: 1926 - ISIN: null - CNPJ: 41.727.134/0001-96",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2497311969254857700,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657423 - NOME: BB TAMANDUÁ MM FIC FI - DRIVE: 11864 - GFI: 1864 - ISIN: BR07OVCTF002 - CNPJ: 40.903.235/0001-08",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 2032130630957881000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657415 - NOME: BRASILPREV RT DALUDEIS FIC FI - DRIVE: 100001859 - GFI: 1859 - ISIN: BR08MACTF008 - CNPJ: 41.195.517/0001-60",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 3838358935446707000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 656895 - NOME: null - DRIVE: null - GFI: null - ISIN: LU1675058645 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 4932415747611909000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 649354 - NOME: CART BB ANTONIA - DRIVE: 304940 - GFI: null - ISIN: null - CNPJ: 26.768.675/0001-79",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 8491161583176144000,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem cotizacao - ID: 651549 - NOME: null - DRIVE: null - GFI: null - ISIN: BR02VICTF005 - CNPJ: null",
+      "status": null,
+      "data": "2021-09-23"
+    },
+    {
+      "id": 917010081844515500,
+      "origem": "FUNDOS",
+      "tipo": "classificação",
+      "mensagem": "fundos sem classificacao - ID: 657422 - NOME: BRASILPREV TOP JUROS E MOEDAS - DRIVE: 6240 - GFI: 1936 - ISIN: BR09HUCTF004 - CNPJ: 41.755.267/0001-76",
+      "status": null,
+      "data": "2021-09-23"
+    }
+  ],
+  "origens": [
+    {
+      "id": 2609499793037418500,
+      "nome": "MAPEAMENTO"
+    },
+    {
+      "id": 1726539301991177000,
+      "nome": "CALCULO"
+    },
+    {
+      "id": 7109640280858385000,
+      "nome": "VALIDACAO"
+    },
+    {
+      "id": 5138872124825819000,
+      "nome": "FUNDOS"
+    },
+    {
+      "id": 7052991055423100000,
+      "nome": "TESTE"
+    }
+  ],
+  "grupos": [
+    {
+      "id": 2319154753375589000,
+      "nome": "LIQUIDEZ"
+    },
+    {
+      "id": 6437358507144995000,
+      "nome": "PRODUCAO"
+    }
+  ]
+}

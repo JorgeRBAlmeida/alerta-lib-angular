@@ -1,0 +1,14 @@
+<div class="inline">
+    <div *ngIf="icon === 1" class="icons">
+      <mat-icon class="icon-red">report_problem</mat-icon>
+    </div>
+    <div *ngIf="icon === 2">
+      <mat-icon class="icon-green">done</mat-icon>
+    </div>
+    <h3 mat-dialog-content class="text-modal">{{ data[0] }}</h3>
+    <div class="icons">
+      <button mat-icon-button aria-label="fechar">
+        <mat-icon (click)="fecharModal()">close</mat-icon>
+      </button>
+    </div>
+  </div>
